@@ -7,25 +7,28 @@ from getpass import getpass
 
 PASSWORD_FILE = "contrasenas.json"
 
+
+#inicio menu
 class Menu_contra:
     def __init__(self):
         self.contrasena = {}
         self.cargar_contrasena()
     
-
+    #funcion para obtener las contraseñas guardadas json
     def cargar_contrasena(self):
         if os.path.exists(PASSWORD_FILE):
             with open(PASSWORD_FILE, "r") as file:
                 self.contrasena = json.load(file)
-
+    #funcion para guardar contraseñas en el json
     def guardar_contrasena(self):
         with open(PASSWORD_FILE, "w") as file:
             json.dump(self.contrasena, file, indent=4)
 
-
+    #funcion que realiza un hashing a las contraseñas
     def hashing(self, contrasena):
         return hashlib.sha256(contrasena.encode()).hexdigest()
     
+    #Funcion que permite añadir ontraseñas al usuario (solicita web, usuario, contraseña y palabra clave)
     def anadir_contrasena(self):
         web = input("Web a la que pertece la contraseña: ")
         nombre_usuario = input("Nombre de Usuario: ")
@@ -35,7 +38,7 @@ class Menu_contra:
         self.guardar_contrasena()
         print("Contraseña guardada correctamente.")
 
-
+    #Funcion que permite obtener y visualizar contraseñas al usuario (solicita web, usuario, contraseña y palabra clave)
     def obtener_contrasena(self):
         web = input("Web de la contraseña a solicitar: ")
         hashed_web = self.hashing(web)
@@ -46,7 +49,7 @@ class Menu_contra:
             print("Palabra Clave: ", data.get("palabra_clave", "N/A"))
         else:
             print("Contraseña no encontrada.")
-    
+    #Funcion que permite actualizar la infomacion de las  contraseñas  guardadas por el usuario (solicita web, usuario, contraseña y palabra clave)
     def actualizar_contrasena(self):
         web = input("Web a la que pertece la contraseña: ")
         hashed_web = self.hashing(web)
@@ -65,7 +68,7 @@ class Menu_contra:
         else:
             print("Contraseña no encontrada.")
 
-
+    #Funcion que permite borrar contraseñas al usuario (solicita web)
     def borrar_contrasena(self):
         web = input("Web a la que pertenece la contraseña: ")
         hashed_web = self.hashing(web)
@@ -75,14 +78,14 @@ class Menu_contra:
             print("Contraseña borrada exitosamente.")
         else:
             print("Contraseña no encontrada.")
-
+    #Funcion que permite generar contraseñas al usuario 
     def generador_contrasena(self, length=12, chars=string.ascii_letters + string.digits + string.punctuation):
         return ''.join(random.choice(chars) for _ in range(length))
     
 
 if __name__ == "__main__":
     menu_contra = Menu_contra()
-
+    #Menu principal
     while True:
         print("\n1. Añadir contraseña")
         print("2. Obtener contraseña")
