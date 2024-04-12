@@ -3,11 +3,11 @@ Github dedicado a tarea 1 enla cual se nos dio un requerimiento, para que nosotr
 
 ## Tabla de Contenidos
 
-1. [Requerimientos y Organización](#Requerimientos y Organización)
+1. [Requerimientos y Organización](#Requerimientos)
 2. [Organización](#Organización)
 3. [Problemas encontrados](#Problemas encontrados)
 
-## Requerimientos y Organización
+## Requerimientos
 
 El requerimiento especificado en la tarea 1 es que se pueda almacenar y gestionar contraseñas de forma **segura** en línea de comandos, la gestión debe tener las opciones para agregar, actualizar y eliminar contraseñas. Tambien debe haber una opción para generar contraseñas.
 
