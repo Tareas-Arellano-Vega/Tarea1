@@ -20,9 +20,9 @@ Una vez instalado el programa le dara las opciones de administración de perfile
 
 Si deseas contribuir al proyecto, por favor sigue estas pautas al enviar solicitudes de extracción:
 
--Fork el repositorio y crea una rama para tu contribución.
--Realiza tus cambios y asegúrate de que el código funcione correctamente.
--Envía una solicitud de extracción explicando los cambios que has realizado y por qué.
+1. Fork el repositorio y crea una rama para tu contribución.
+2. Realiza tus cambios y asegúrate de que el código funcione correctamente.
+3. Envía una solicitud de extracción explicando los cambios que has realizado y por qué.
 
 ## Licencia
 
