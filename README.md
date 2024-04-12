@@ -29,6 +29,9 @@ Uno se dedicará a realizar el código, mientras el otro se enfocará en las con
 
 **Incluir evidencia del flujo de trabajo(aqui)**
 
+![Evidencia del flujo de trabajo](image.png)
+
+
 ## Problemas
 
 1. En el programa se contruyó de menor a mayor ; es decir; se trabajo en base a un prototipo de administración de contraseñas en donde se creaba un archivo JSON en donde guardaban los datos de la contraseña sin encriptación, entonces a la hora de implementar la encriptación el arhcivo JSON marca que esta mal escrito, ya que las encriptarse no mantienen el formato JSON, pero el programa funciona muy bien igualmente, por lo que decidimos dejarlo como esta.
