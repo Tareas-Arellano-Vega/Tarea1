@@ -3,10 +3,9 @@ Github dedicado a tarea 1 enla cual se nos dio un requerimiento, para que nosotr
 
 ## Tabla de Contenidos
 
-1. [Requerimientos y Organización](#instalación)
-2. [Uso](#uso)
-3. [Contribución](#contribución)
-4. [Licencia](#licencia)
+1. [Requerimientos y Organización](#Requerimientos_y_Organización)
+2. [Organización](#Organización)
+3. [Problemas encontrados](#Problemas_encontrados)
 
 ## Requerimientos y Organización
 
