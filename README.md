@@ -29,7 +29,7 @@ Uno se dedicará a realizar el código, mientras el otro se enfocará en las con
 
 **Incluir evidencia del flujo de trabajo(aqui)**
 
-![Evidencia del flujo de trabajo](imagenes/image.png)
+![Evidencia del flujo de trabajo](imagenes/image.PNG)
 
 
 ## Problemas
