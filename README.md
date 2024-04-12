@@ -1,6 +1,7 @@
 
-### Nueva Branch
-Creacion de branch "Testing" que se enfocara plenamente en "testear" el codigo entregado.
+### Informacion de Testing
+Nuestra metodologia es definir roles para cada uno de nosotros (Desarrollador y Tester), dejando que tester se encargue plenamente en realizar pruebas exhaustivas del codigo creado por el desarrollador.  
+Esto es conocido como pruebas cruzadas.
 
 ### Ejecutables utilizados
 Se realizaran pruebas en archivo jupyter notebook , y se realizara un registro de las pruebas en archivo excel.
@@ -14,5 +15,5 @@ Se realizaran pruebas en archivo jupyter notebook , y se realizara un registro d
 
 Para lograr la mejor vista es necesario seleccionar "Hoja 5" en la parte inferior de excel.  
 Dentro de esta vista se encontrará toda la informacion relacionada a ese testing.  
-Si se quiere ver la informacion completa, es necesario apretar el boton mas ubicado al lado izquiero de ID.  
+Si se quiere ver la informacion completa, es necesario apretar el boton mas ubicado al lado izquierdo de ID.  
 Si se quieren lo datos directos, seleccionar "Hoja 1".  
