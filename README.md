@@ -3,9 +3,9 @@ Github dedicado a tarea 1 enla cual se nos dio un requerimiento, para que nosotr
 
 ## Tabla de Contenidos
 
-1. [Requerimientos y Organización](#RequerimientosyOrganización)
+1. [Requerimientos y Organización](#Requerimientos y Organización)
 2. [Organización](#Organización)
-3. [Problemas encontrados](#Problemasencontrados)
+3. [Problemas encontrados](#Problemas encontrados)
 
 ## Requerimientos y Organización
 
