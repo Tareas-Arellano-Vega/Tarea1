@@ -1,5 +1,6 @@
 # Tarea1 (Intro Testing)
-Github dedicado a tarea 1 en la cual se nos dio un requerimiento, para que nosotros construyamos el programa
+Github dedicado a tarea 1 en la cual se nos dio un requerimiento, para que nosotros construyamos el programa.
+URL de Repositorio: https://github.com/Tareas-Arellano-Vega/Tarea1
 
 ## Tabla de Contenidos
 
